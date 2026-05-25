@@ -4,7 +4,7 @@
   "start_url": ".",
   "display": "standalone",
   "background_color": "#121212",
-  "theme_color": "#2e7d32",
+  "theme_color": "#121212",
   "icons": [
     {
       "src": "wardalinski_budget_app_logo.png",
