@@ -1,0 +1,15 @@
+{
+  "name": "Wardalinski Budgeting",
+  "short_name": "W Budget App",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#2e7d32",
+  "icons": [
+    {
+      "src": "wardalinski_budget_app_logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
