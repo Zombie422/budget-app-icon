@@ -8,12 +8,11 @@
   <title>W Budget App</title>
   <style>
     body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #121212; }
-    /* Added touch-action to prevent mobile browser bounce conflicts with the sidebar */
     iframe { border: none; width: 100%; height: 100%; touch-action: manipulation; }
   </style>
 </head>
 <body>
-  <iframe src="https://wardalinski-budgeting.streamlit.app/"></iframe>
+  <iframe src="https://wardalinski-budgeting.streamlit.app/?embed=true"></iframe>
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('sw.js');
