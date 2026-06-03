@@ -7,8 +7,22 @@
   <link rel="apple-touch-icon" href="wardalinski_budget_app_logo.png">
   <title>W Budget App</title>
   <style>
-    body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #121212; }
-    iframe { border: none; width: 100%; height: 100%; touch-action: manipulation; }
+    body, html { 
+      margin: 0; 
+      padding: 0; 
+      height: 100%; 
+      overflow: hidden; /* Strict lock: prevents dragging the page up to see the cropped zone */
+      background: #121212; 
+    }
+    
+    iframe { 
+      border: none; 
+      width: 100%; 
+      /* THE TRICK: Force the iframe to be taller than the viewport, pushing the footer off-screen */
+      height: calc(100% + 45px); 
+      margin-bottom: -45px; 
+      touch-action: manipulation; 
+    }
   </style>
 </head>
 <body>
